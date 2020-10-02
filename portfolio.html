@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jon's Porfolio</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Styles2.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Jon Keopangna</span>
+        <!--Navigation bar with Home section, Portfolio & Contact tabs-->
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a
+              href="index.html"
+              class="nav-link"
+              id="nav-home-tab"
+              data-toggle="tab"
+              href="#nav-home"
+              role="tab"
+              aria-controls="nav-home"
+              aria-selected="false"
+              >Home</a
+            >
+            <a
+              href="portfolio.html"
+              class="nav-link active"
+              id="nav-portfolio-tab"
+              data-toggle="tab"
+              href="#nav-portfolio"
+              role="tab"
+              aria-controls="nav-portfolio"
+              aria-selected="true"
+              >Portfolio</a
+            >
+            <a
+              href="contact.html"
+              class="nav-link"
+              id="nav-contact-tab"
+              data-toggle="tab"
+              href="#nav-contact"
+              role="tab"
+              aria-controls="nav-contact"
+              aria-selected="false"
+              >Contact</a
+            >
+          </div>
+        </nav>
+      </nav>
+      <!--Navigation tab link properties-->
+      <nav class="tab-content" id="nav-tabContent">
+        <tab
+          class="tab-pane fade"
+          id="nav-home"
+          role="tabpanel"
+          aria-labelledby="nav-home-tab"
+        ></tab>
+        <tab
+          class="tab-pane fade show active"
+          id="nav-portfolio"
+          role="tabpanel"
+          aria-labelledby="nav-portfolio-tab"
+        ></tab>
+        <tab
+          class="tab-pane fade"
+          id="nav-contact"
+          role="tabpanel"
+          aria-labelledby="nav-contact-tab"
+        ></tab>
+      </nav>
+    </header>
+    <section class="container">
+      <article class="row">
+        <div class="col-sm-12">
+          <h2>Who is the Strongest Avenger?</h2>
+        </div>
+      </article>
+      <article class="row">
+        <div class="col-sm-12">
+          <img src="assets/captain-america.jpg" title="Cap" class="img" />
+          <img src="assets/iron-man.jpg" title="Iron Man" class="img" />
+        </div>
+      </article>
+    </section>
+  </body>
+  <footer>
+    <!--Application's footer-->
+  </footer>
+</html>
