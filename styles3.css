@@ -57,9 +57,11 @@ label {
   color: black;
 }
 
-/* footer {
+footer {
+  clear: both;
   padding: 30px;
   background-color: rgb(73, 121, 94);
   border-top: 3px solid black;
+  margin-top: 200px;
   position: sticky;
-} */
+}
