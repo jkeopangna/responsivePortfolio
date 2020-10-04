@@ -10,3 +10,7 @@ In this current environment of mobile accessibility, the demand for web applicat
 4. Building a design responsive to multiple screen resolutions
 
 The portfolio application can be previewed through the link and image provided.
+
+[Responsive Portfolio](https://jkeopangna.github.io/responsivePortfolio/)
+
+![Resonpsive Porfolio](assets/portfolio.jpg)
